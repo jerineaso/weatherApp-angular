@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="title">{{title}}</div>
+    <form [formGroup]="weatherForm">
+        <input formControlName="weather_input"  placeholder="Enter the City Name" id="weather_input">
+        <button id="subBtn" type="submit" (click)="onSubmit()">Submit</button> 
+    </form> 
+</div>
+
+<ng-container *ngIf="!loader">
+    <app-weather-app-data [data]="dataValue"></app-weather-app-data>
+</ng-container>

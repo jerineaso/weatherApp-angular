@@ -1,0 +1,31 @@
+.container{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .title{
+        font-size: 21px;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+
+    #weather_input{
+        padding: 8px 10px 8px 8px;
+        font-size: 15px;
+        margin-right: 8px;
+    }
+
+    #subBtn{
+        padding: 8px 10px 8px 8px;
+        font-size: 16px;
+        background-color: #cacaca;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+
+
